@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+body {
+/*   background: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  width: 180px;
+  height: 180px;
+  position: relative;
+  background: #04AA6B;
+  border-radius: 50%;
+  animation-name: rotateAndAnimate;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+/*   transform: rotate(60deg); */
+}
+
+/* The rotation and animation keyframes */
+@keyframes rotateAndAnimate {
+  0% {
+    transform: rotate(0deg);
+/*     background-color: red; */
+  }
+  25% {
+    transform: rotate(90deg);
+/*     background-color: yellow; */
+  }
+  50% {
+    transform: rotate(180deg);
+/*     background-color: orange; */
+  }
+  75% {
+    transform: rotate(270deg);
+/*     background-color: brown; */
+  }
+  100% {
+    transform: rotate(360deg);
+/*     background-color: pink; */
+  }
+}
+
+div span {
+  color: white;
+  font-size: 23px;
+  font-family: 'Roboto Mono', monospace;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
+
+div span:nth-child(1) {
+  position: absolute;
+  top: 35px;
+  left: 24px;
+  transform: rotate(-55deg);
+}
+
+div span:nth-child(2) {
+  position: absolute;
+  top: 22px;
+  left: 35px;
+  transform: rotate(-40deg);
+}
+
+div span:nth-child(3){
+  position: absolute;
+  top: 13px;
+  left: 50px;
+  transform: rotate(-30deg);
+}
+
+div span:nth-child(4){
+  position: absolute;
+  top: 6px;
+  left: 68px;
+  transform: rotate(-15deg);
+}
+
+div span:nth-child(5){
+  position: absolute;
+  top: 4px;
+  left: 84px;
+  transform: rotate(0deg);
+}
+
+div span:nth-child(6){
+  position: absolute;
+  top: 5px;
+  left: 100px;
+  transform: rotate(20deg);
+}
+
+div span:nth-child(7){
+  position: absolute;
+  top: 11px;
+  left: 115px;
+  transform: rotate(25deg);
+}
+
+div span:nth-child(8){
+  position: absolute;
+  top: 19px;
+  left: 128px;
+  transform: rotate(40deg);
+}
+
+div span:nth-child(9){
+  position: absolute;
+  top: 28px;
+  left: 140px;
+  transform: rotate(40deg);
+}
+
+div span:nth-child(10){
+  position: absolute;
+  top: 142px;
+  left: 65px;
+  transform: rotate(200deg);
+}
+
+div span:nth-child(11){
+  position: absolute;
+  top: 136px;
+  left: 50px;
+  transform: rotate(210deg);
+}
+
+div span:nth-child(12){
+  position: absolute;
+  top: 126px;
+  left: 35px;
+  transform: rotate(225deg);
+}
+
+div span:nth-child(13){
+  position: absolute;
+  top: 114px;
+  left: 25px;
+  transform: rotate(235deg);
+}
+
+div span:nth-child(14){
+  position: absolute;
+  top: 103px;
+  left: 18px;
+  transform: rotate(245deg);
+}
+
+div span:nth-child(15){
+  position: absolute;
+  top: 144px;
+  left: 71px;
+  transform: rotate(8deg);
+}
+
+div span:nth-child(16){
+  position: absolute;
+  top: 145px;
+  left: 86px;
+  transform: rotate(0deg);
+}
+
+div span:nth-child(17){
+  position: absolute;
+  top: 143px;
+  left: 103px;
+  transform: rotate(-15deg);
+}
+
+div span:nth-child(18){
+  position: absolute;
+  top: 135px;
+  left: 120px;
+  transform: rotate(-8deg);
+}
+
+div span:nth-child(19){
+  position: absolute;
+  top: 126px;
+  left: 131px;
+  transform: rotate(-55deg);
+}
+
+div span:nth-child(20){
+  position: absolute;
+  top: 115px;
+  left: 140px;
+  transform: rotate(-50deg);
+}
+
+div span:nth-child(21){
+  position: absolute;
+  top: 102px;
+  left: 146px;
+  transform: rotate(-65deg);
+}
+
+div span:nth-child(22){
+  position: absolute;
+  top: 88px;
+  left: 150px;
+  transform: rotate(-80deg);
+}
+
+div span:nth-child(23){
+  position: absolute;
+  top: 75px;
+  left: 152px;
+  transform: rotate(-80deg);
+}
+
+div span:last-child{
+  width: 10px;
+  height: 10px;
+  border: 1px solid red;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
